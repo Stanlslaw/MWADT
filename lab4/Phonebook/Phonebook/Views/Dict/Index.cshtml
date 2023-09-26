@@ -1,0 +1,28 @@
+﻿
+@using Phonebook.Models.Dict
+
+@model IEnumerable<PhoneBookRaw>
+@{
+    Layout = "_Layout";
+}
+<main class="index-main">
+    <a href="/Dict/Add">Добавить</a>
+    <a href="/Dict/Update">Обновить</a>
+    <a href="/Dict/Delete">Удалить</a>
+<table class="table">
+    <tr><td>Id</td><td>Surname</td><td>PhoneNumber</td></tr>
+    @* <text>@Model</text> *@
+    @if (@Model!=null)
+    {
+        @foreach (var book in Model)
+        {
+            <tr><td>@book.Id</td><td>@book.Surname</td><td>@book.PhoneNumber</td></tr>
+        }
+    }
+    else
+    {
+        <h2>Нет Данных</h2>
+    }
+    
+</table>
+</main>

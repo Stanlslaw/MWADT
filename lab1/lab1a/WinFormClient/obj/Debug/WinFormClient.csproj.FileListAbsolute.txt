@@ -1,0 +1,14 @@
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\bin\Debug\WinFormClient.exe.config
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\bin\Debug\WinFormClient.exe
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\bin\Debug\WinFormClient.pdb
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.Form1.resources
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.Properties.Resources.resources
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.csproj.GenerateResource.cache
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.csproj.CopyComplete
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.exe
+C:\Users\stass\Desktop\СТРВП\Лабы\lab1\WinFormClient\obj\Debug\WinFormClient.pdb

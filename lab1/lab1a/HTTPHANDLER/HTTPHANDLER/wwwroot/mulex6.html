@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Lab-1 ex4</title>
+</head>
+<body>
+    <style>
+
+    </style>
+    <div>
+        <div id="mulform">
+            <input type="text" id="parm1" placeholder="Введите первое число"/>
+            <input type="text" id="parm2" placeholder="Введите второе число"/>
+            <button id="submit">mul</button>
+        </div>
+    </div>
+    <h2 >Result: <span id="result"></span></h2>
+    <script type="text/javascript">
+            let resultLine = document.querySelector("#result");
+            let form =document.querySelector("#smulform");
+            let subm = document.querySelector("#submit")
+            
+            let GetSum =async (e)=>{
+                let parm1=document.querySelector("#parm1").value
+                let parm2=document.querySelector("#parm2").value
+                let res=await fetch(`/api/mulex6?parm1=${parm1}&parm2=${parm2}`,
+                {method:"POST",
+                });
+                let result = await res.text()
+                resultLine.innerText = result;
+               
+            }
+            subm.addEventListener('click',GetSum)
+    </script>
+</body>
+</html>

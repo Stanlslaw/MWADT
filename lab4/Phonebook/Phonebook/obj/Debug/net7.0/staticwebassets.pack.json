@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Phonebook.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
+      "PackagePath": "staticwebassets\\PhonesBookData.json"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.scss",
+      "PackagePath": "staticwebassets\\css\\_Layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\site.scss",
+      "PackagePath": "staticwebassets\\css\\site.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Phonebook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Phonebook.props",
+      "PackagePath": "build\\Phonebook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Phonebook.props",
+      "PackagePath": "buildMultiTargeting\\Phonebook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Phonebook.props",
+      "PackagePath": "buildTransitive\\Phonebook.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

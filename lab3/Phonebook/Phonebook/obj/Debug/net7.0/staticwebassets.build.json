@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "OTzjPMJmQ49+UWFr1cGhHWA/vx0KoT4Fm8Dtmv6lXKA=",
+  "Source": "Phonebook",
+  "BasePath": "_content/Phonebook",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Phonebook\\wwwroot",
+      "Source": "Phonebook",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "BasePath": "_content/Phonebook",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.css",
+      "SourceId": "Phonebook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "BasePath": "_content/Phonebook",
+      "RelativePath": "css/_Layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_Layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
+      "SourceId": "Phonebook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "BasePath": "_content/Phonebook",
+      "RelativePath": "PhonesBookData.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PhonesBookData.json"
+    }
+  ]
+}

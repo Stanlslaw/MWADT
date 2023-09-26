@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Lab-1 ex4</title>
+</head>
+<body>
+<style>
+
+</style>
+<div>
+    <div id="mulform">
+        <input type="text" id="parm1" placeholder="Введите первое число"/>
+        <input type="text" id="parm2" placeholder="Введите второе число"/>
+        <button id="submit">mul</button>
+    </div>
+</div>
+<h2 >Result: <span id="result"></span></h2>
+<script type="text/javascript">
+    let resultLine = document.querySelector("#result");
+    let form =document.querySelector("#mulform");
+    let subm = document.querySelector("#submit")
+
+    let GetSum =async (e)=>{
+       let xhr=new XMLHttpRequest();
+        let parm1=document.querySelector("#parm1").value
+        let parm2=document.querySelector("#parm2").value
+        xhr.open("POST","/api/mulex5")
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = () => {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    const data = xhr.responseText;
+                    resultLine.textContent = `${data}`;
+                } else {
+                    resultLine.textContent = "Произошла ошибка при запросе к серверу.";
+                }
+            }
+        };
+
+        const formData = `parm1=${encodeURIComponent(parm1)}&parm2=${encodeURIComponent(parm2)}`;
+        xhr.send(formData);
+    }
+    subm.addEventListener('click',GetSum)
+</script>
+</body>
+</html>

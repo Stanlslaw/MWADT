@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\mulex5.html",
+      "PackagePath": "staticwebassets\\mulex5.html"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\mulex6.html",
+      "PackagePath": "staticwebassets\\mulex6.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HTTPHANDLER.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HTTPHANDLER.props",
+      "PackagePath": "build\\HTTPHANDLER.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HTTPHANDLER.props",
+      "PackagePath": "buildMultiTargeting\\HTTPHANDLER.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HTTPHANDLER.props",
+      "PackagePath": "buildTransitive\\HTTPHANDLER.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

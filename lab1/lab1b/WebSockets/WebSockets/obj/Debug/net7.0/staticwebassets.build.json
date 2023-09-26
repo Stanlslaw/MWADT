@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "eYk+eDWM+nu1r19uuO1bvfcX4FE5GfoM4Q+Xo13f4bY=",
+  "Source": "WebSockets",
+  "BasePath": "_content/WebSockets",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebSockets\\wwwroot",
+      "Source": "WebSockets",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1b\\WebSockets\\WebSockets\\wwwroot\\",
+      "BasePath": "_content/WebSockets",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1b\\WebSockets\\WebSockets\\wwwroot\\index.html",
+      "SourceId": "WebSockets",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1b\\WebSockets\\WebSockets\\wwwroot\\",
+      "BasePath": "_content/WebSockets",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1b\\WebSockets\\WebSockets\\wwwroot\\signalr.js",
+      "SourceId": "WebSockets",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1b\\WebSockets\\WebSockets\\wwwroot\\",
+      "BasePath": "_content/WebSockets",
+      "RelativePath": "signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signalr.js"
+    }
+  ]
+}

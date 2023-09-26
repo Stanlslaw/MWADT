@@ -1,0 +1,22 @@
+﻿
+
+
+@{
+    string status = ViewData["StatusCode"].ToString();
+    string origUrl = ViewData["OrigUrl"].ToString();
+    string method = ViewData["Method"].ToString();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <h2>Error @status</h2>
+    <p>@method: @origUrl не поддерживается</p>
+</div>
+</body>
+</html>

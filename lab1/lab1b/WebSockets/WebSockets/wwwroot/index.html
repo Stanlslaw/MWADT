@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WebSocket using SignalR</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    <ul id="messages"></ul>
+    <script src="signalr.js"></script>
+    <script>
+        let list = document.querySelector("#messages");
+        let start = document.querySelector("#start");
+        let stop = document.querySelector("#stop");
+        let connection = new signalR.HubConnectionBuilder()
+            .withUrl("/ws",{transport: signalR.HttpTransportType.WebSockets}).build()
+       
+        start.addEventListener('click',async ()=>{
+           await connection.start().catch(err=>{
+               console.error(err.toString())
+           })
+            await connection.invoke("Send","start")
+            console.log(connection.state)
+        })
+      
+        stop.addEventListener('click',async ()=>{
+           await connection.stop();
+           console.log(connection.state)
+        })
+       
+        connection.on("Receive",res=>{
+            console.log(res)
+            list.innerHTML+=`<li>${res}</li>`
+        })
+        
+       
+    </script>
+</body>
+</html>
