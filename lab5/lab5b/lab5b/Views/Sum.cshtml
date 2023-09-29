@@ -1,0 +1,25 @@
+﻿
+@model lab5b.Views.Sum
+
+@{
+    Layout = null;
+    string res =ViewData["result"].ToString();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Sum</title>
+</head>
+<body>
+<div>
+    @* <form method="post" action="/cache/sum"> *@
+    @*     <input name="x" type="text"/> *@
+    @*     <input name="y" type="text"/> *@
+    @*     <input type="submit"/> *@
+    @* </form> *@
+    <text>Ответ: @res</text>
+</div>
+</body>
+</html>
