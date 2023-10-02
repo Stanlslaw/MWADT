@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "347w7x0Hy+NXm3APd73pD7kyawoMpTkrwH/tvvNHUSBN0gTb+51NmsbE9E/bC/lFTAehalcmMjG+RFXn15xYKg==",
+  "dgSpecHash": "evtFDmBHT186gXIv7RvxYVqrCtGbrRsB9QyHG28vSLcT9VjDMvTR7e9oLXQGSlDxYblEAQJo3e1lVm977KfYkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\Phonebook.csproj",
+  "projectFilePath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\Phonebook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stass\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

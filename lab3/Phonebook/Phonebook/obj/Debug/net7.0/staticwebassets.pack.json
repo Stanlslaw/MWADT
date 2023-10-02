@@ -1,12 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
       "PackagePath": "staticwebassets\\PhonesBookData.json"
     },
     {
-      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.css",
-      "PackagePath": "staticwebassets\\css\\_Layout.css"
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\layout.css.map",
+      "PackagePath": "staticwebassets\\css\\layout.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\layout.scss",
+      "PackagePath": "staticwebassets\\css\\layout.scss"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Phonebook.Microsoft.AspNetCore.StaticWebAssets.props",

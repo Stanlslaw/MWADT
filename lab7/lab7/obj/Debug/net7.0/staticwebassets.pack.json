@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\css\\layout.css.map",
+      "PackagePath": "staticwebassets\\css\\layout.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\css\\layout.scss",
+      "PackagePath": "staticwebassets\\css\\layout.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.lab7.props",
+      "PackagePath": "build\\lab7.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.lab7.props",
+      "PackagePath": "buildMultiTargeting\\lab7.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.lab7.props",
+      "PackagePath": "buildTransitive\\lab7.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.lab7.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

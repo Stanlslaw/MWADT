@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ZIV3vhLrURs3N5YwSVTcRGNpZm6GBkbm65rsW3N0p98=",
+  "Source": "lab5b",
+  "BasePath": "_content/lab5b",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "lab5b\\wwwroot",
+      "Source": "lab5b",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5b\\lab5b\\wwwroot\\",
+      "BasePath": "_content/lab5b",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h355syyNw6JziFRKt4G/2jFcFaFZPgwXx31rJejbu6E=",
+  "Hash": "BJZPIl9p6+KmwEU3CBieajiaB4DVL52TtsBVQxPAjk4=",
   "Source": "HTTPHANDLER",
   "BasePath": "_content/HTTPHANDLER",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HTTPHANDLER\\wwwroot",
       "Source": "HTTPHANDLER",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab1\\lab1a\\HTTPHANDLER\\HTTPHANDLER\\wwwroot\\",
       "BasePath": "_content/HTTPHANDLER",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\mulex5.html",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab1\\lab1a\\HTTPHANDLER\\HTTPHANDLER\\wwwroot\\mulex5.html",
       "SourceId": "HTTPHANDLER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab1\\lab1a\\HTTPHANDLER\\HTTPHANDLER\\wwwroot\\",
       "BasePath": "_content/HTTPHANDLER",
       "RelativePath": "mulex5.html",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\mulex5.html"
     },
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\mulex6.html",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab1\\lab1a\\HTTPHANDLER\\HTTPHANDLER\\wwwroot\\mulex6.html",
       "SourceId": "HTTPHANDLER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab1\\HTTPHandler\\HTTPHANDLER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab1\\lab1a\\HTTPHANDLER\\HTTPHANDLER\\wwwroot\\",
       "BasePath": "_content/HTTPHANDLER",
       "RelativePath": "mulex6.html",
       "AssetKind": "All",

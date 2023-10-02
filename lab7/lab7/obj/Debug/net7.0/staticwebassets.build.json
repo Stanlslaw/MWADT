@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "VJVitx2b8G0buFH+sdTr2NKCypojLcdz0HF9pb+stxA=",
+  "Source": "lab7",
+  "BasePath": "_content/lab7",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "lab7\\wwwroot",
+      "Source": "lab7",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\",
+      "BasePath": "_content/lab7",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\css\\layout.css",
+      "SourceId": "lab7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\",
+      "BasePath": "_content/lab7",
+      "RelativePath": "css/layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\css\\layout.css.map",
+      "SourceId": "lab7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\",
+      "BasePath": "_content/lab7",
+      "RelativePath": "css/layout.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\css\\layout.scss",
+      "SourceId": "lab7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab7\\lab7\\wwwroot\\",
+      "BasePath": "_content/lab7",
+      "RelativePath": "css/layout.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.scss"
+    }
+  ]
+}
