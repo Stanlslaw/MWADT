@@ -8,17 +8,17 @@ public class CHResearchController:Controller
 {
     [HttpGet]
   
-    // [ResponseCache(Duration =10)]
-    [OutputCache(Duration = 10)]
+     [ResponseCache(Duration =10)]
+    //[OutputCache(Duration = 10)]
     [Route("datetime")]
     public async Task<IActionResult> AD()
     {
         return Content($"{DateTime.Now.ToString()}");
     }
     [HttpGet]
-    [HttpPost]
-    // [ResponseCache(Duration = 7)]\
-    [OutputCache(Duration = 10,VaryByRouteValueNames = new []{"x","y"})]
+    [HttpPost] 
+    [ResponseCache(Duration = 7)]
+   // [OutputCache(Duration = 10,VaryByRouteValueNames = new []{"x","y"})]
     [Route("sum")]
     public async Task<IActionResult> AP(int x, int y)
     {

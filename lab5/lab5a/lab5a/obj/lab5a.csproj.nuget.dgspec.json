@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab5\\lab5a\\lab5a\\lab5a.csproj": {}
+    "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5a\\lab5a\\lab5a.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab5\\lab5a\\lab5a\\lab5a.csproj": {
+    "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5a\\lab5a\\lab5a.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab5\\lab5a\\lab5a\\lab5a.csproj",
+        "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5a\\lab5a\\lab5a.csproj",
         "projectName": "lab5a",
-        "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab5\\lab5a\\lab5a\\lab5a.csproj",
+        "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5a\\lab5a\\lab5a.csproj",
         "packagesPath": "C:\\Users\\stass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab5\\lab5a\\lab5a\\obj\\",
+        "outputPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5a\\lab5a\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\stass\\AppData\\Roaming\\NuGet\\NuGet.Config",

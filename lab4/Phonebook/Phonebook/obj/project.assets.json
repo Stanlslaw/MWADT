@@ -2666,11 +2666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\Phonebook.csproj",
+      "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\Phonebook.csproj",
       "projectName": "Phonebook",
-      "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\Phonebook.csproj",
+      "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\Phonebook.csproj",
       "packagesPath": "C:\\Users\\stass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\",
+      "outputPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stass\\AppData\\Roaming\\NuGet\\NuGet.Config",

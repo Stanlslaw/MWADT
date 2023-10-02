@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ulLB8ceNHYSt3sSkksNQPRVgdx0abbrRmLejHq/zgs8=",
+  "Hash": "m/XMWEhuGnS/yNVdLC3eH7StqyL8BYQsxapJB9VOhL8=",
   "Source": "lab5a",
   "BasePath": "_content/lab5a",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "lab5a\\wwwroot",
       "Source": "lab5a",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab5\\lab5a\\lab5a\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab5\\lab5a\\lab5a\\wwwroot\\",
       "BasePath": "_content/lab5a",
       "Pattern": "**"
     }

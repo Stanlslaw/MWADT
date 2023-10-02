@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css",
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css",
       "PackagePath": "staticwebassets\\Phonebook.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
       "PackagePath": "staticwebassets\\PhonesBookData.json"
     },
     {
-      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.scss",
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.scss",
       "PackagePath": "staticwebassets\\css\\_Layout.scss"
     },
     {
-      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\site.scss",
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\css\\site.scss",
       "PackagePath": "staticwebassets\\css\\site.scss"
     },
     {

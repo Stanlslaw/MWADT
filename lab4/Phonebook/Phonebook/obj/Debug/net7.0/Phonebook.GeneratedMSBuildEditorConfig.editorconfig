@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Phonebook
 build_property.RootNamespace = Phonebook
-build_property.ProjectDir = C:\Users\stass\Desktop\СТРВП\Лабы\lab3\Phonebook\Phonebook\
+build_property.ProjectDir = C:\Users\stass\Desktop\СТРВП\MWADT\lab4\Phonebook\Phonebook\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\stass\Desktop\СТРВП\Лабы\lab3\Phonebook\Phonebook
+build_property.MSBuildProjectDirectory = C:\Users\stass\Desktop\СТРВП\MWADT\lab4\Phonebook\Phonebook
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/stass/Desktop/СТРВП/Лабы/lab3/Phonebook/Phonebook/Views/Dict/Delete.cshtml]
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab4/Phonebook/Phonebook/Views/Dict/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stass/Desktop/СТРВП/Лабы/lab3/Phonebook/Phonebook/Views/Dict/Error.cshtml]
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab4/Phonebook/Phonebook/Views/Dict/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljdFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stass/Desktop/СТРВП/Лабы/lab3/Phonebook/Phonebook/Views/Dict/Index.cshtml]
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab4/Phonebook/Phonebook/Views/Dict/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stass/Desktop/СТРВП/Лабы/lab3/Phonebook/Phonebook/Views/Dict/Update.cshtml]
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab4/Phonebook/Phonebook/Views/Dict/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stass/Desktop/СТРВП/Лабы/lab3/Phonebook/Phonebook/Views/Shared/_Layout.cshtml]
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab4/Phonebook/Phonebook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/stass/Desktop/СТРВП/Лабы/lab3/Phonebook/Phonebook/Views/Dict/Add.cshtml]
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab4/Phonebook/Phonebook/Views/Dict/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9g7fqk1rqj

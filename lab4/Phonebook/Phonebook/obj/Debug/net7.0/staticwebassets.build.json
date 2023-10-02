@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "naZq98KCYI1O2PAnwCCmKRYL4+1i8WfvGhCYTAbwFJo=",
+  "Hash": "wDPhlbaStDBTRV4Te05d8M7lLa9ouh/yjdZllkxmQlE=",
   "Source": "Phonebook",
   "BasePath": "_content/Phonebook",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Phonebook\\wwwroot",
       "Source": "Phonebook",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\",
       "BasePath": "_content/Phonebook",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Phonebook.styles.css",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Phonebook.styles.css",
       "SourceId": "Phonebook",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Phonebook",
       "RelativePath": "Phonebook.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Phonebook.styles.css"
+      "OriginalItemSpec": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Phonebook.styles.css"
     },
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css",
       "SourceId": "Phonebook",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Phonebook",
       "RelativePath": "Phonebook.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.scss",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\css\\_Layout.scss",
       "SourceId": "Phonebook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\",
       "BasePath": "_content/Phonebook",
       "RelativePath": "css/_Layout.scss",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\_Layout.scss"
     },
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\site.scss",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\css\\site.scss",
       "SourceId": "Phonebook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\",
       "BasePath": "_content/Phonebook",
       "RelativePath": "css/site.scss",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.scss"
     },
     {
-      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
+      "Identity": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
       "SourceId": "Phonebook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\wwwroot\\",
       "BasePath": "_content/Phonebook",
       "RelativePath": "PhonesBookData.json",
       "AssetKind": "All",

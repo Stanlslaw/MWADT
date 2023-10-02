@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sLNFacO6O8QPNJnma/5K3IjlInsAJ5zhJ0r3NIlOdHxUnhINCJK7YPO2jAyQZI9yk7C+0aRQdRHiqHSsrRROrA==",
+  "dgSpecHash": "R4m80J8FoWevzyXCGbrj2V+I4wWdIJyfJiB3PyLFRNlaHbxMmz4zfcS48/8DwbSDioIUiylpSaJ8I0Mh5O1HKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stass\\Desktop\\СТРВП\\Лабы\\lab3\\Phonebook\\Phonebook\\Phonebook.csproj",
+  "projectFilePath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab4\\Phonebook\\Phonebook\\Phonebook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stass\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\stass\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

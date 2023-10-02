@@ -24,4 +24,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=BSTU}/{action=Index}");
 app.MapControllers();
+
 app.Run();
