@@ -1,8 +1,24 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Phonebook.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Phonebook.bundle.scp.css"
+    },
+    {
       "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\PhonesBookData.json",
       "PackagePath": "staticwebassets\\PhonesBookData.json"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\errorPage.css",
+      "PackagePath": "staticwebassets\\css\\errorPage.css"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\errorPage.css.map",
+      "PackagePath": "staticwebassets\\css\\errorPage.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\errorPage.scss",
+      "PackagePath": "staticwebassets\\css\\errorPage.scss"
     },
     {
       "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\layout.css",
@@ -15,6 +31,18 @@
     {
       "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\layout.scss",
       "PackagePath": "staticwebassets\\css\\layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\tableStyle.css",
+      "PackagePath": "staticwebassets\\css\\tableStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\tableStyle.css.map",
+      "PackagePath": "staticwebassets\\css\\tableStyle.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab3\\Phonebook\\Phonebook\\wwwroot\\css\\tableStyle.scss",
+      "PackagePath": "staticwebassets\\css\\tableStyle.scss"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Phonebook.Microsoft.AspNetCore.StaticWebAssets.props",

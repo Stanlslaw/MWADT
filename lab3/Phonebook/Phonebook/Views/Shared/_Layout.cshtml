@@ -1,20 +1,22 @@
-﻿<!DOCTYPE html>
+﻿@using Phonebook.Models.Dict
+<!DOCTYPE html>
 <html>
 <head>
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="css/layout.css"/>
+    <link rel="stylesheet" href="~/css/layout.css"/>
+    <link rel="stylesheet" href="~/@(nameof(PhoneBook)).styles.css"/>
 </head>
 <body>
 <main class="wrapper">
 <header class="header">
-    <div class="title">PhoneBook App</div>
+    <div class="title"><span>PhoneBook App</span></div>
 </header>
 <div class="container">
 @RenderBody()
 </div>
 <footer class="footer">
     <div>Phonebook app</div>
-    <div>Powered by stanislaw Skalkovich ©</div>
+    <div>Powered by Stanislaw Skalkovich &copy;</div>
 </footer>
 </main>
 </body>

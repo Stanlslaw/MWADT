@@ -91,3 +91,5 @@ C:\Users\stass\Desktop\СТРВП\MWADT\lab3\Phonebook\Phonebook\obj\Debug\net7.
 C:\Users\stass\Desktop\СТРВП\MWADT\lab3\Phonebook\Phonebook\obj\Debug\net7.0\Phonebook.pdb
 C:\Users\stass\Desktop\СТРВП\MWADT\lab3\Phonebook\Phonebook\obj\Debug\net7.0\Phonebook.genruntimeconfig.cache
 C:\Users\stass\Desktop\СТРВП\MWADT\lab3\Phonebook\Phonebook\obj\Debug\net7.0\ref\Phonebook.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\Phonebook\Phonebook\obj\Debug\net7.0\scopedcss\Views\Dict\Index.cshtml.rz.scp.css
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\Phonebook\Phonebook\obj\Debug\net7.0\scopedcss\projectbundle\Phonebook.bundle.scp.css

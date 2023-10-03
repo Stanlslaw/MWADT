@@ -4,22 +4,23 @@
 @model IEnumerable<PhoneBookRaw>
 @{
     Layout = "_Layout";
+    
 }
 <a href="/Dict/Add">Добавить</a>
-    <a href="/Dict/Update">Обновить</a>
-    <a href="/Dict/Delete">Удалить</a>
-    <table class="table">
-        <tr><td>Id</td><td>Surname</td><td>PhoneNumber</td></tr>
-        @if (@Model!=null)
+<a href="/Dict/Update">Обновить</a>
+<a href="/Dict/Delete">Удалить</a>
+<table class="table">
+    <tr><td>Id</td><td>Surname</td><td>PhoneNumber</td></tr>
+    @if (@Model!=null)
+    {
+        @foreach (var book in Model)
         {
-            @foreach (var book in Model)
-            {
-                <tr><td>@book.Id</td><td>@book.Surname</td><td>@book.PhoneNumber</td></tr>
-            }
+            <tr><td>@book.Id</td><td>@book.Surname</td><td>@book.PhoneNumber</td></tr>
         }
-        else
-        {
-            <h2>Нет Данных</h2>
-        }
-    
-    </table>
+    }
+    else
+    {
+        <h2>Нет Данных</h2>
+    }
+
+</table>

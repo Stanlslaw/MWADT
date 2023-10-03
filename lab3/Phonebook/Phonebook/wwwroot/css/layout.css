@@ -7,15 +7,59 @@ html, body {
   min-height: 100vh;
 }
 
+header.header {
+  display: flex;
+  flex-direction: row;
+  height: 12vh;
+}
+header.header div {
+  display: flex;
+}
+header.header div span {
+  font-size: larger;
+}
+
 main.wrapper {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
 }
+main.wrapper div.container {
+  min-height: 76vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main.wrapper div.container .table {
+  border: 1px solid #eee;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+}
+main.wrapper div.container .table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+main.wrapper div.container .table td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+main.wrapper div.container .table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+main.wrapper div.container .table tbody tr:nth-child(even) {
+  background: #F7F7F7;
+}
 
 footer.footer {
-  height: 16vh;
+  height: 12vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -24,7 +68,6 @@ footer.footer {
 }
 footer.footer div {
   font-size: 18px;
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   text-align: center;
 }
 

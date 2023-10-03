@@ -6,17 +6,36 @@
   height: 100%;
   min-height: 100vh;
 }
-
+header.header{
+  display: flex;
+  flex-direction: row;
+  height: 12vh;
+  div{
+    display: flex;
+    span{
+      font-size: larger;
+    }
+  }
+}
 
 main.wrapper{
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  
+  div.container{
+    min-height: 76vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @import "tableStyle";
+  }
 }
 footer.footer{
-  height: 16vh;
+  height: 12vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -24,7 +43,6 @@ footer.footer{
   justify-content: space-around;
   div{
     font-size: 18px;
-    font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
     text-align: center;
   }
 }
