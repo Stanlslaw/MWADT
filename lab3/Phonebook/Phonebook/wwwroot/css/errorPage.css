@@ -1,0 +1,26 @@
+html, body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+div.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+}
+div.container h2 {
+  font-size: xx-large;
+}
+div.container p {
+  font-size: large;
+}
+
+/*# sourceMappingURL=errorPage.css.map */
