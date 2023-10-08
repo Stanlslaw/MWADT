@@ -7,3 +7,11 @@
 a:hover{
     color: #595959;
 }
+
+.handleRoutes{
+    display: flex;
+    flex-direction: row;
+    max-width: 80vh;
+    justify-content: space-around;
+    gap: 32px 32px;
+}

@@ -8,3 +8,11 @@ a[b-5tl18tzb46]{
 a:hover[b-5tl18tzb46]{
     color: #595959;
 }
+
+.handleRoutes[b-5tl18tzb46]{
+    display: flex;
+    flex-direction: row;
+    max-width: 80vh;
+    justify-content: space-around;
+    gap: 32px 32px;
+}

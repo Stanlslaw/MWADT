@@ -4,11 +4,13 @@
 @model IEnumerable<PhoneBookRaw>
 @{
     Layout = "_Layout";
-    
 }
-<a href="/Dict/Add">Добавить</a>
-<a href="/Dict/Update">Обновить</a>
-<a href="/Dict/Delete">Удалить</a>
+<div class="handleRoutes">
+    <a href="/Dict/Add">Добавить</a>
+    <a href="/Dict/Update">Обновить</a>
+    <a href="/Dict/Delete">Удалить</a>
+</div>
+
 <table class="table">
     <tr><td>Id</td><td>Surname</td><td>PhoneNumber</td></tr>
     @if (@Model!=null)
@@ -21,6 +23,6 @@
     else
     {
         <h2>Нет Данных</h2>
-    }
+    }  
 
 </table>

@@ -39,6 +39,7 @@ main.wrapper div.container .table {
   table-layout: fixed;
   width: 100%;
   margin-bottom: 20px;
+  max-width: 80vw;
 }
 main.wrapper div.container .table th {
   font-weight: bold;
