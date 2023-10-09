@@ -1,0 +1,14 @@
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\bin\Debug\net7.0\AppDataBaseContext.deps.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\bin\Debug\net7.0\AppDataBaseContext.runtimeconfig.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\bin\Debug\net7.0\AppDataBaseContext.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\bin\Debug\net7.0\AppDataBaseContext.pdb
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.AssemblyInfoInputs.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.AssemblyInfo.cs
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\refint\AppDataBaseContext.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.pdb
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\AppDataBaseContext.genruntimeconfig.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppDataBaseContext\obj\Debug\net7.0\ref\AppDataBaseContext.dll

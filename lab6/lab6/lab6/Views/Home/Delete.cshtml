@@ -1,0 +1,22 @@
+﻿@{
+Layout = "_Layout";
+}
+<form asp-action="Delete" method="post">
+    <div class="container">
+        <div class="col gy-5 mb-3">
+            <label for="id-input">Id</label>
+            <input id="id-input" class="form-control" type="text" placeholder="" name="id"/>
+        </div>
+        <div class="col gy-5 d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Delete</button>
+        </div>
+    </div>
+</form>
+<script>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <text>
+            alert("@TempData["SuccessMessage"]");
+        </text>
+    }
+</script>

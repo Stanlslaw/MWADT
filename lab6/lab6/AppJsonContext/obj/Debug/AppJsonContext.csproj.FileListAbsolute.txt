@@ -1,0 +1,9 @@
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\bin\Debug\AppJsonContext.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\bin\Debug\AppJsonContext.pdb
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\obj\Debug\AppJsonContext.csproj.AssemblyReference.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\obj\Debug\AppJsonContext.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\obj\Debug\AppJsonContext.csproj.CopyComplete
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\obj\Debug\AppJsonContext.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\AppJsonContext\obj\Debug\AppJsonContext.pdb

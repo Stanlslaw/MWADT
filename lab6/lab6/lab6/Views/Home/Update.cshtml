@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "_Layout";
+}
+<form asp-action="Update" method="post">
+    <div class="container">
+        <div class="col gy-5 mb-3">
+            <label for="id-input">Id</label>
+            <input id="id-input" class="form-control" type="text" placeholder="" name="id"/>
+        </div>
+        <div class="col gy-5 mb-3">
+            <label for="name-input">Name</label>
+            <input id="name-input" class="form-control" type="text" placeholder="Stanislaw" name="name"/>
+        </div>
+        <div class="col gy-5 mb-3">
+            <label for="phone-input">Phone</label>
+            <input id="phone-input" class="form-control" type="text" placeholder="+375331231231" name="phone"/>
+        </div>
+        <div class="col gy-5 d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <text>
+            alert("@TempData["SuccessMessage"]");
+        </text>
+    }
+</script>

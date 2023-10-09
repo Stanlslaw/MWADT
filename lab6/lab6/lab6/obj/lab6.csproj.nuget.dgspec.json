@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\lab6\\lab6.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppDataBaseContext\\AppDataBaseContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppDataBaseContext\\AppDataBaseContext.csproj",
+        "projectName": "AppDataBaseContext",
+        "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppDataBaseContext\\AppDataBaseContext.csproj",
+        "packagesPath": "C:\\Users\\stass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppDataBaseContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Users\\stass\\Desktop\\РПР\\4lab\\Hello": {},
+          "C:\\Users\\stass\\Desktop\\РПР\\4lab\\LibraryFirst": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppJsonContext\\AppJsonContext.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppJsonContext\\AppJsonContext.csproj",
+        "projectName": "AppJsonContext",
+        "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppJsonContext\\AppJsonContext.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\lab6\\lab6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\lab6\\lab6.csproj",
+        "projectName": "lab6",
+        "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\lab6\\lab6.csproj",
+        "packagesPath": "C:\\Users\\stass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\lab6\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Users\\stass\\Desktop\\РПР\\4lab\\Hello": {},
+          "C:\\Users\\stass\\Desktop\\РПР\\4lab\\LibraryFirst": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppDataBaseContext\\AppDataBaseContext.csproj": {
+                "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppDataBaseContext\\AppDataBaseContext.csproj"
+              },
+              "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppJsonContext\\AppJsonContext.csproj": {
+                "projectPath": "C:\\Users\\stass\\Desktop\\СТРВП\\MWADT\\lab6\\lab6\\AppJsonContext\\AppJsonContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

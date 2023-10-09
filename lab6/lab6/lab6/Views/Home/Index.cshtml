@@ -1,0 +1,36 @@
+﻿@model List<DataContext.PhoneRaw>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3>Actions</h3>
+    <div>
+        <a class="link-dark" asp-area="" asp-controller="Home" asp-action="Add" >Home/Add</a>
+        <a class="link-dark" asp-area="" asp-controller="Home" asp-action="Update" >Home/Update</a>
+        <a class="link-dark" asp-area="" asp-controller="Home" asp-action="Delete" >Home/Delete</a>
+    </div>
+    <div class="container gy-5">
+        <div  class="text-center"><h2>PhoneDictionary</h2></div>
+        @if (@Model != null)
+        {
+            <table class="table table-striped">
+                <thead><tr><th scope="col">Id</th><th scope="col">Name</th><th scope="col">Phone</th></tr></thead>
+                <tbody>
+
+                @foreach (var raw in @Model)
+                {
+                    <tr><td>@raw.Id</td><td>@raw.Name</td><td>@raw.PhoneNumber</td></tr>
+                }
+
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h2>Нет Данных</h2>
+        }
+
+    </div>
+  
+</div>
