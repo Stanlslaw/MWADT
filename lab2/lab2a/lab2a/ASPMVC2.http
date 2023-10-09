@@ -1,0 +1,41 @@
+﻿
+###
+GET https://{{hostname}}:{{port}}/Parm/Index
+###     
+GET https://{{hostname}}:{{port}}/Parm/Index/1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Index/ddd
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri01
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri01/1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri01/x1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri02
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri02/1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri02/x1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri03
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri03/1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri03/x1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri03/1.222
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri03/12,22
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri04
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri04/1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri04/x1
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri04/1.222
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri04/2023.01.02
+###     
+GET https://{{hostname}}:{{port}}/Parm/Uri04/2023.01.02%2014:00:33

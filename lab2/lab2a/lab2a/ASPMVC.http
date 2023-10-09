@@ -1,0 +1,24 @@
+﻿###
+GET https://{{hostname}}:{{port}}
+###         {{hostname}}:{{port}}
+GET https://{{hostname}}:{{port}}/Start/Index
+###         {{hostname}}:{{port}}
+GET https://{{hostname}}:{{port}}/Start/One
+###         {{hostname}}:{{port}}
+GET https://{{hostname}}:{{port}}/Start/Two
+###         {{hostname}}:{{port}}
+GET https://{{hostname}}:{{port}}/Start/Three
+###         {{hostname}}:{{port}}
+POST https://{{hostname}}:{{port}}/Start/Index
+###         {{hostname}}:{{port}}
+POST https://{{hostname}}:{{port}}/Start/One
+###         {{hostname}}:{{port}}
+POST https://{{hostname}}:{{port}}/Start/Two
+###         {{hostname}}:{{port}}
+POST https://{{hostname}}:{{port}}/Start/Three
+### 
+#404
+GET https://{{hostname}}:{{port}}/XXXX
+###
+#BSTU
+GET https://belstu.by/
