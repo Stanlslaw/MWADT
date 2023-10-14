@@ -1,5 +1,5 @@
-global using DataContext = AppDataBaseContext;//AppJsonContext //AppDataBaseContext
-global using DataContextInterfaces = AppDataBaseContext.Interfaces;//AppJsonContext.Interfaces //AppDataBaseContext.Interfaces
+global using DataContext = AppJsonContext;//AppJsonContext --- для json //AppDataBaseContext --- для SQL-services
+//для переключения между типами хранения раскоменте необходимые сервисы
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,12 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Json Service
-//builder.Services.AddSingleton<DataContextInterfaces.IPhoneDictionary>(new DataContext.PhoneDictionary(@"C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\lab6\wwwroot\PhonesBookData.json"));
+builder.Services.AddSingleton<DataContext.Interfaces.IPhoneDictionary>(new DataContext.PhoneDictionary(@"C:\Users\stass\Desktop\СТРВП\MWADT\lab6\lab6\lab6\wwwroot\PhonesBookData.json"));
 
-//SqlService
-builder.Services.AddScoped<AppDataBaseContext.PhoneDictionary,AppDataBaseContext.PhoneDictionary>();
-builder.Services.AddDbContext<AppDataBaseContext.PhoneDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")),ServiceLifetime.Scoped);
+//SqlServices
+//builder.Services.AddScoped<DataContext.Interfaces.IPhoneDictionary,DataContext.PhoneDictionary>();
+//builder.Services.AddDbContext<AppDataBaseContext.PhoneDbContext>(options =>
+  //  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")),ServiceLifetime.Scoped);
 
 
 

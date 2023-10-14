@@ -8,9 +8,9 @@ namespace lab6.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly DataContext.PhoneDictionary phoneDictionaryRepository;
+        private readonly DataContext.Interfaces.IPhoneDictionary phoneDictionaryRepository;
 
-        public HomeController(ILogger<HomeController> logger, DataContext.PhoneDictionary phoneDictionaryRepository)
+        public HomeController(ILogger<HomeController> logger, DataContext.Interfaces.IPhoneDictionary phoneDictionaryRepository)
         {
             _logger = logger;
             this.phoneDictionaryRepository = phoneDictionaryRepository;

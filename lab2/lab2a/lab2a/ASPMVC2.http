@@ -1,4 +1,6 @@
-﻿
+﻿#если VS в Rider http-client.env.json
+#@hostname=localhost
+#@port=свой
 ###
 GET https://{{hostname}}:{{port}}/Parm/Index
 ###     
