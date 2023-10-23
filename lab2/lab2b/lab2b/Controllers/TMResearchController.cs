@@ -5,7 +5,7 @@ namespace lab5a.Controllers;
 // [Route("{controller}")]
 // [Route("V2/{controller}")]
 // [Route("V3/{controller}/X")]
-public class MResearchController : Controller
+public class TMResearchController : Controller
 {
     [Route("/")]
     [Route("{controller}/M01/1")]

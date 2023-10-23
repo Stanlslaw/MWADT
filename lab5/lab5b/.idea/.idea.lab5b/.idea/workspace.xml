@@ -10,51 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6538214a-899e-452f-90c2-2560f1fa85e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/bin/Debug/net7.0/Phonebook.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/bin/Debug/net7.0/Phonebook.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/bin/Debug/net7.0/Phonebook.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/bin/Debug/net7.0/Phonebook.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/bin/Debug/net7.0/Phonebook.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/bin/Debug/net7.0/Phonebook.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/Phonebook.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Phonebook.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Phonebook.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Phonebook.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/Phonebook.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Phonebook/Phonebook/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/bin/Debug/net7.0/lab5a.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/bin/Debug/net7.0/lab5a.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/bin/Debug/net7.0/lab5a.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/bin/Debug/net7.0/lab5a.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/bin/Debug/net7.0/lab5a.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/bin/Debug/net7.0/lab5a.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/Debug/net7.0/lab5a.csproj.AssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/lab5a.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/lab5a.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/lab5a.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/lab5a.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5a/lab5a/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5a/lab5a/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab5b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab5b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/Controllers/CHResearchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/Controllers/CHResearchController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/bin/Debug/net7.0/lab5b.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/bin/Debug/net7.0/lab5b.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/bin/Debug/net7.0/lab5b.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/bin/Debug/net7.0/lab5b.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/ref/lab5b.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/ref/lab5b.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/refint/lab5b.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/refint/lab5b.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/Debug/net7.0/lab5b.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/lab5b.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/lab5b.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/lab5b.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/lab5b.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5b/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lab5b/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab8/ReactClient/PhoneDictionary/src/MainPage/MainPage.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab8/ReactClient/PhoneDictionary/src/MainPage/MainPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab8/ReactClient/PhoneDictionary/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab8/ReactClient/PhoneDictionary/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,34 +37,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2VwaFQqvrx1Q01yXHLL3U5Yyf5Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\stass\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\stass\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\stass\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\stass\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\stass\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\stass\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.lab5b: IIS Express">
     <configuration name="lab5b: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/lab5b/lab5b.csproj" />
@@ -150,6 +125,7 @@
       <workItem from="1695800822981" duration="251000" />
       <workItem from="1695970257076" duration="76000" />
       <workItem from="1696232591296" duration="668000" />
+      <workItem from="1698042677546" duration="182000" />
     </task>
     <servers />
   </component>
