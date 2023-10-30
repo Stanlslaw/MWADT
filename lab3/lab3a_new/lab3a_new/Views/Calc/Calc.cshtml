@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+    float? x = ViewBag.x, y = ViewBag.y, z = ViewBag.z;
+    string action = "Sum";
+    string press = (string)ViewBag.press;
+    action = press switch 
+    {
+        "+"=>"Sum",
+        "-"=>"Sub",
+        "*"=>"Sum",
+        "/"=>"Sub",
+        _=>"Index"
+        };
+    string result= Convert.ToString(ViewBag.result??"err");
+}   
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Calc</title>
+</head>
+<body>
+@{ await Html.RenderPartialAsync("_CalcLink");}
+
+@if (!String.IsNullOrWhiteSpace(press))
+{
+    @using (Html.BeginRouteForm((action,"Calc",FormMethod.Post)))
+    {
+        <p>
+            @{ await Html.RenderPartialAsync("_Calc");}
+            <input type="text" disabled value="@result"/>
+            <input type="submit" name="press" value="@press"/>
+        </p>
+        <p>
+            @(ViewBag.Error as string)
+        </p>
+    }
+}
+</body>
+</html>

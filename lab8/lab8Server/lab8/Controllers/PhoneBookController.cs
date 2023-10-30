@@ -33,7 +33,7 @@ public class PhoneBookController:Controller
     [Route("addrecord")]
     public async Task<IActionResult> AddRecord(string name, string phone)
     {
-        await _phoneDictionary.Add(phone,phone);
+        await _phoneDictionary.Add(name,phone);
         return Ok();
     }
     [HttpPut]
