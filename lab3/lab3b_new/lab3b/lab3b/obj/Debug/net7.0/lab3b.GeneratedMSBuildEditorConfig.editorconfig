@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lab3b
+build_property.RootNamespace = lab3b
+build_property.ProjectDir = C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3b_new\lab3b\lab3b\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3b_new\lab3b\lab3b
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Calc/Calc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xDYWxjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Calc/_Calc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xfQ2FsYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Calc/_CalcLink.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xfQ2FsY0xpbmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/AddNewRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROZXdSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/AddNewUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROZXdVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/AssignRolesToUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBc3NpZ25Sb2xlc1RvVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/Calc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Home/RemoveRolesFromUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW1vdmVSb2xlc0Zyb21Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stass/Desktop/СТРВП/MWADT/lab3/lab3b_new/lab3b/lab3b/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2i32mnxziz

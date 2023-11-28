@@ -1,0 +1,48 @@
+﻿@model RoleViewModel
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<h2>Удалить роль</h2>
+@if (@Model.isActionSuccess)
+{
+    <div id="successAlert" class="alert alert-success" role="alert">
+        Роль успешно удалена!
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById('successAlert').style.display = 'none';
+        }, 3000); // Скрыть через 3 секунды (3000 миллисекунд)
+    </script>
+}
+else if(@Model.errorMessage!=null)
+{
+    <div id="warningAlert" class="alert alert-warning" role="alert">
+       @Model.errorMessage
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById('warningAlert').style.display = 'none';
+        }, 3000); // Скрыть через 3 секунды (3000 миллисекунд)
+    </script>
+}
+<form asp-action="DeleteRole" method="post">
+    <div class="form-group">
+        <label for="new-role">Role: </label>
+        <input class="form-control" name="roleId" id="new-role" type="text" placeholder="Enter role ID"/>
+    </div>
+    <button type="submit" class="btn btn-primary m-2">Удалить</button>
+</form>
+<div>
+    <table class="table">
+        <tr><th scope="col">#</th><th scope="col">Id</th><th scope="col">Role Name</th></tr>
+        @{ var counter = 1; }
+        @foreach (var role in @Model.roleList)
+        {
+            <tr><td>@counter</td><td>@role.Id</td><td>@role.Name</td></tr>
+            counter++;
+        }
+    </table>
+</div>

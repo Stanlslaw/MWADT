@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "_Layout";
+    float? x = ViewBag.x, y = ViewBag.y, z = ViewBag.z;
+    string action = "Sum";
+    string press = (string)ViewBag.press;
+    action = press switch 
+    {
+        "+"=>"Sum",
+        "-"=>"Sub",
+        "*"=>"Sum",
+        "/"=>"Sub",
+        _=>"Index"
+        };
+    string result= Convert.ToString(ViewBag.result??"err");
+}   
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Calc</title>
+</head>
+<body>
+@{ await Html.RenderPartialAsync("_CalcLink");}
+
+@if (!String.IsNullOrWhiteSpace(press))
+{
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h2>@action</h2>
+        <form class="w-50" asp-controller="Calc" asp-action="@action" method="post">
+            <div>
+                @{ await Html.RenderPartialAsync("_Calc");}
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="res-text">Результат</label>
+                <input class="form-control" type="text" id="res-text" disabled value="@result"/>
+
+            </div>
+            <button class="m-2 btn btn-primary">Вычислить</button>
+            <p>
+                @(ViewBag.Error as string)
+            </p>
+        </form>
+    </div>
+}
+</body>
+</html>

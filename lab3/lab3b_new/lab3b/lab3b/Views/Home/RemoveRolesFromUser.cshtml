@@ -1,0 +1,67 @@
+﻿@model UserRolesViewModel
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<h2>Удалить роль</h2>
+@if (@Model.isActionSuccess)
+{
+    <div id="successAlert" class="alert alert-success" role="alert">
+        Роль успешно удаленна!
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById('successAlert').style.display = 'none';
+        }, 3000); // Скрыть через 3 секунды (3000 миллисекунд)
+    </script>
+}
+else if(@Model.errorMessage!=null)
+{
+    <div id="warningAlert" class="alert alert-warning" role="alert">
+        @Model.errorMessage
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById('warningAlert').style.display = 'none';
+        }, 3000); // Скрыть через 3 секунды (3000 миллисекунд)
+    </script>
+}
+<form asp-action="RemoveRolesFromUser" method="post">
+    <div class="form-group">
+        <label for="userDataList" class="form-label">Users</label>
+        <input autocomplete="off" class="form-control" name="userEmail" list="userDatalistOptions" id="userDataList" placeholder="Type to search...">
+        <datalist id="userDatalistOptions">
+            @foreach (var user in @Model.userList)
+            {
+                <option value="@user.Email"></option>
+            }
+        </datalist>
+    </div>
+    <div class="form-group">
+        <label for="rolesDataList" class="form-label">Roles</label>
+        <input autocomplete="off" class="form-control" name="RoleName" list="rolesDatalistOptions" id="rolesDataList" placeholder="Type to search...">
+        <datalist  id="rolesDatalistOptions">
+            @foreach (var role in @Model.rolesList)
+            {
+                <option value="@role.Name"></option>
+            }
+        </datalist>
+    </div>
+     <div class="form-group">
+     <button class="m-2 btn btn-primary">Забрать</button>
+     </div>
+</form>
+
+<div>
+    <table class="table">
+        <tr><th scope="col">#</th><th scope="col">Email</th><th scope="col">Roles</th></tr>
+        @{ var counter = 1; }
+        @foreach (var userRoles in @Model.userRoles)
+        {
+            <tr><td>@counter</td><td>@userRoles.user.Email</td><td>@userRoles.GetUserListAsString()</td></tr>
+            counter++;
+        }
+    </table>
+</div>

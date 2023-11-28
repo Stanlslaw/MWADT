@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center"><h2>Admin Panel</h2></div>
+
+<div class="d-flex flex-row justify-content-between">
+    <a class="link-dark" asp-action="AddNewRole">Add role</a>
+    <a class="link-dark" asp-action="DeleteRole">Delete role</a>
+    <a class="link-dark" asp-action="AddNewUser">Add user</a>
+    <a class="link-dark" asp-action="DeleteUser">Delete user</a>
+    <a class="link-dark" asp-action="AssignRolesToUser">Assign roles to user</a>
+    <a class="link-dark" asp-action="RemoveRolesFromUser">Remove roles from user</a>
+</div>
