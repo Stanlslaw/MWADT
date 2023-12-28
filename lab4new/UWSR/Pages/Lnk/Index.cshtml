@@ -1,0 +1,67 @@
+﻿@page
+@model UWSR.Pages.Lnk.IndexModel
+@using UWSR.Utils
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    @if (Security.CheckIsAdmin(this.HttpContext))
+    {
+        <a asp-page="Create">Create New</a>
+    }
+    <a asp-page="Find">Find page</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Link[0].Url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Link[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Link[0].Minus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Link[0].Plus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Link) {
+    <div style="display:flex, flex:table-column">
+        <tr>
+            <td>
+                <a href="@item.Url">
+                @Html.DisplayFor(modelItem => item.Url)
+                </a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Minus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Plus)
+            </td>
+            <td>
+                    @if (Security.CheckIsAdmin(this.HttpContext))
+                    {
+                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>;
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>;
+                    }
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+    </div>
+
+}
+    </tbody>
+</table>

@@ -1,0 +1,76 @@
+﻿@page
+@model UWSR.Pages.Lnk.DetailsModel
+@using UWSR.Utils
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<a>
+    <h4>Link</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Link.Url)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Link.Url)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Link.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Link.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Link.Minus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Link.Minus)
+            <form method="post">
+                <button type="submit" asp-page-handler="OnMinus" asp-route-id="@Model.Link.Id">Minus One</button>
+            </form>
+        </dd>
+        <dt class="col-sm-2">
+            <form method="post">
+                <button type="submit" asp-page-handler="OnPlus" asp-route-id="@Model.Link.Id">Plus One</button>
+            </form>
+            @Html.DisplayNameFor(model => model.Link.Plus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Link.Plus)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="../Cmnt/Create" asp-route-id="@Model.Link?.Id">Create comment</a>
+</div>
+<div class="row">
+    @foreach (var item in Model.Link.Comments)
+    {
+        <tr class="column">
+            <td>
+                @Html.DisplayFor(modelItem => item.SessionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @if (Security.CheckIsCommentUser(this.HttpContext, item))
+                {
+                    <a asp-page="../Cmnt/Edit" asp-route-id="@item.Id">Edit</a>;
+                    <a asp-page="../Cmnt/Delete" asp-route-id="@item.Id">Delete</a>;
+                }
+                <a asp-page="../Cmnt/Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+    }
+</div>
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>

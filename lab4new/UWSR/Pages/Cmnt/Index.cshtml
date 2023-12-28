@@ -1,0 +1,52 @@
+﻿@page
+@model UWSR.Pages.Cmnt.IndexModel
+@using UWSR.Utils
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Comment[0].SessionId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comment[0].Stamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comment[0].Text)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Comment) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SessionId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                    @if (Security.CheckIsAdmin(this.HttpContext) || Security.CheckIsCommentUser(this.HttpContext, item))
+                    {
+                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>;
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>;
+                    }
+                   
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
